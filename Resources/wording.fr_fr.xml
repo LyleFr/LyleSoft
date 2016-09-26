@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+	<datas>
+		<data >
+			<key>Hello</key>
+		 	<value>Bonjour</value>
+		</data>
+		<data >
+			<key>Bye</key>
+		 	<value>Adieu</value>
+		</data>
+		
+	</datas>	
+</root>	

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+	<includes>
+		<include>Core/</include>
+	</includes>
+	<includes>
+		<include>Utility/</include>
+	</includes>
+</root>
