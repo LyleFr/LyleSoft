@@ -31,10 +31,13 @@ class Loader {
 				if(file_exists($used_url.$directory.$className . '.php'))
 				{				
 					require_once($used_url.$directory.$className . '.php');
+					echo('found for : '.$used_url.$directory.$className.'.php</br>'  );
 					return true;
-				} 
+				}
+				echo('Not found for : '.$used_url.$directory.$className.'.php</br>'  );
 			}
-		}		
+		}	
+		
 	}
 	
 	static function GetFrameworkConfigUrl()

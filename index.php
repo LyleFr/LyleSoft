@@ -1,7 +1,7 @@
 <?php
 session_start();
 // Load Autoloader for being able to load all class without require command
-require_once './LsFWAlpha/indexLfs.php';
+require_once '/LsfwAlpha/indexLfs.php';
 
 $temp = new Template('Template/accueil.html');
 $temp->Render();
