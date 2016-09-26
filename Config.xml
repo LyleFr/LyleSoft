@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+	<includes>
+		<include>Utility/</include>
+	</includes>
+	<languages>
+		<language>fr_fr</language>
+		<language>en_en</language>
+	</languages>
+		
+	<services>
+		<service name="Wording" classes="Wording" method="Get" />				
+	</services>
+</root>
