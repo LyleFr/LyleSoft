@@ -30,11 +30,9 @@ class Loader {
 				//see if the file exists
 				if(file_exists($used_url.$directory.$className . '.php'))
 				{				
-					require_once($used_url.$directory.$className . '.php');
-					echo('found for : '.$used_url.$directory.$className.'.php</br>'  );
+					require_once($used_url.$directory.$className . '.php');				
 					return true;
-				}
-				echo('Not found for : '.$used_url.$directory.$className.'.php</br>'  );
+				}				
 			}
 		}	
 		
