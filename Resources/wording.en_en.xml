@@ -9,6 +9,10 @@
 			<key>Bye</key>
 		 	<value>Bye</value>
 		</data>
+		<data >
+			<key>Connect</key>
+		 	<value>You are Connected</value>
+		</data>
 		
 	</datas>	
 </root>	

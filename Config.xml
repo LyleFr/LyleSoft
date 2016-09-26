@@ -10,5 +10,6 @@
 		
 	<services>
 		<service name="Wording" classes="Wording" method="Get" />				
+		<service name="LogIn" classes="LogService" method="CheckLogIn" />
 	</services>
 </root>
