@@ -7,10 +7,10 @@ class LogService {
 		
 		if($value == 'false') {
 			$temp = new Template('Template/login.html');
-			return $temp->Render();
+			return $temp->GetContent();
 		} else {
 			$temp = new Template('Template/logon.html');
-			return $temp->Render();
+			return $temp->GetContent();
 		}
 	}
 }
