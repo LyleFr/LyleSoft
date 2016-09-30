@@ -10,8 +10,7 @@ class ServiceFinder {
 		foreach($config->services as $services)
 		{			
 			foreach ($services->service as $definedService)
-			{
-					
+			{				
 				if($definedService['name'] == $name) {					
 					return 	array((string)$definedService['classes'],(string)$definedService['method']);
 				}

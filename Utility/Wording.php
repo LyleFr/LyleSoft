@@ -6,10 +6,9 @@
  * Create Class
  */
 class Wording {
-	
-	const URL_ERROR = './Resources/wording.err.xml';
 	const URL_DIRECTORY = './Resources/';
 	
+	const URL_ERROR = self::URL_DIRECTORY .'/wording.err.xml';			
 	const URL_WORDING_BASE = self::URL_DIRECTORY .'/wording.';
 	
 	/***
