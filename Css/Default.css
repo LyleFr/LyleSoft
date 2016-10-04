@@ -2,5 +2,52 @@
 
 body 
 {
-	background: #008040;
+	background: #006020;
+	padding : 0;
+	margin : 0;
+	color: #FFF;
+}
+
+div {
+	
+	border: none;
+}
+
+#global 
+{
+	width : 100%;
+	min-width : 1024px;
+}
+
+#logPanel {
+	height : 55px;	
+	width : 100%;
+	border-bottom: 2px solid #007030;
+	background-color : #008949;
+}
+
+#centralPanel {
+	min-height : 600px;
+	max-Height : 1200px;
+	border: 2px solid #007939;	
+	min-width : 800px;
+	width : 75%;
+	float : left; 
+}
+
+#leftPanel {
+	min-height : 600px;
+	max-Height : 1200px;
+	border: 2px solid #007939;
+	max-width : 236px;
+	width : 20%;
+	float : right;
+}
+
+
+#footerPanel {
+	clear : both;
+	height : 125px;
+	background-color : #005010;
+	width : 100%;
 }
