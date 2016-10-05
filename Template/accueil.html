@@ -8,8 +8,11 @@
 </head>
 <body>	
 	<div id="global">
-		<div id="logPanel">{%LogIn|true%} </div>	
-		<div id="centralPanel">{%Wording|Bye%}</div>
+		<div id="logPanel">{%LogIn|true%}</div>	
+		<div id="centralPanel">
+			{%Include|Template/News.html%}
+			{%Include|Template/News.html%}
+		</div>
 		<div id="leftPanel">Left Panel</div>
 		<div id="footerPanel">Footer</div>
 	</div>

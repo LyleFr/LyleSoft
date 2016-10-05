@@ -9,7 +9,7 @@ body
 }
 
 div {
-	
+	width : 100%;
 	border: none;
 }
 
@@ -21,15 +21,15 @@ div {
 
 #logPanel {
 	height : 55px;	
-	width : 100%;
-	border-bottom: 2px solid #007030;
+	
+	border-bottom: 10px solid #006020;
 	background-color : #008949;
 }
 
 #centralPanel {
 	min-height : 600px;
 	max-Height : 1200px;
-	border: 2px solid #007939;	
+	border-top: 2px solid #008949;	
 	min-width : 800px;
 	width : 75%;
 	float : left; 
@@ -38,7 +38,7 @@ div {
 #leftPanel {
 	min-height : 600px;
 	max-Height : 1200px;
-	border: 2px solid #007939;
+	border-top: 2px solid #008949;
 	max-width : 236px;
 	width : 20%;
 	float : right;
@@ -48,6 +48,25 @@ div {
 #footerPanel {
 	clear : both;
 	height : 125px;
-	background-color : #005010;
-	width : 100%;
+	background-color : #006020;
+	border-top: 10px solid #008949;
+}
+
+.news {
+	width : 250px;
+	float : left;
+	border : 1px solid #008949;
+	padding : 2px;
+}
+
+.newsTitle {
+	width : 250px;
+	height: 25px;
+	text-align: center;
+}
+
+.newsContent {
+	width : 250px;
+	min-hegth : 250px;
+	text-align: justify;		
 }

@@ -11,5 +11,6 @@
 	<services>
 		<service name="Wording" classes="Wording" method="Get" />				
 		<service name="LogIn" classes="LogService" method="CheckLogIn" />
+		<service name="Include" classes="IncludeService" method="IncludeTmpl" />
 	</services>
 </root>
