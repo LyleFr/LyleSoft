@@ -3,7 +3,6 @@
 class ServiceFinder {
 	
 	static function GetByName($name) {
-			
 		$base_url = dirname(__FILE__).'/';
 		$config = simplexml_load_file(Loader::GetGeneralConfigUrl());
 		
@@ -14,12 +13,9 @@ class ServiceFinder {
 				if($definedService['name'] == $name) {					
 					return 	array((string)$definedService['classes'],(string)$definedService['method']);
 				}
-					
 			}
 		}
 	}
-	
-	
 }
 
 

@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <root>
+	<configBdd serverUrl="localhost" dbName="david_vallade" dbUser="david.vallade" dbPassword="gl12pabqr" />		
 	<includes>
 		<include>Utility/</include>
 	</includes>
