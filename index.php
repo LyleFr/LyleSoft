@@ -6,7 +6,6 @@ require_once './LsfwAlpha/indexLfs.php';
 $temp = new Template('Template/accueil.html');
 $temp->Render();
 
-$test = new Entity();
 
 //include('Template/accueil.html');
 
